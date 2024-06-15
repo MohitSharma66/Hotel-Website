@@ -1,0 +1,179 @@
+/* CardComponentsPage.css */
+
+.card-components-page {
+  background-color: #f2f2f2; /* Light grey background */
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.navbar {
+  background-color: #ffffff;
+  z-index: 1;
+  width: 100%;
+  padding: 30px;
+}
+
+.book-button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+
+.hotel-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  width: calc(33% - 20px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.hotel-card:hover {
+  transform: scale(1.02);
+}
+
+.hotel-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hotel-card-content {
+  padding: 10px;
+}
+
+.hotel-card-content h3 {
+  margin: 10px 0;
+}
+
+.hotel-card-content p {
+  margin: 5px 0;
+}
+
+.hotel-card-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .hotel-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .navbar {
+    padding: 15px;
+  }
+
+  .book-button {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .hotel-card img {
+    height: 150px;
+  }
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hotel-card {
+    width: calc(50% - 20px);
+    margin: 10px 0;
+  }
+
+  .navbar {
+    padding: 20px;
+  }
+
+  .book-button {
+    padding: 7px 14px;
+    font-size: 15px;
+  }
+
+  .hotel-card img {
+    height: 160px;
+  }
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hotel-card {
+    width: calc(33% - 20px);
+    margin: 10px;
+  }
+
+  .navbar {
+    padding: 25px;
+  }
+
+  .book-button {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+
+  .hotel-card img {
+    height: 180px;
+  }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hotel-card {
+    width: calc(33% - 20px);
+    margin: 10px;
+  }
+
+  .navbar {
+    padding: 28px;
+  }
+
+  .book-button {
+    padding: 9px 18px;
+    font-size: 17px;
+  }
+
+  .hotel-card img {
+    height: 190px;
+  }
+}
+
+/* Extra large devices (larger desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .hotel-card {
+    width: calc(33% - 20px);
+    margin: 10px;
+  }
+
+  .navbar {
+    padding: 30px;
+  }
+
+  .book-button {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+  .hotel-card img {
+    height: 200px;
+  }
+}
