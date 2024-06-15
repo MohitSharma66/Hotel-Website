@@ -1,0 +1,67 @@
+/* ContactPage.css */
+
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure the page takes up the full viewport height */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+}
+
+.navbar {
+  z-index: 1; /* Ensure the navbar appears above the background */
+}
+
+.contact-content {
+  flex: 1; /* Take up remaining vertical space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: white; /* Text color for contact content */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color for content */
+}
+
+/* Media Queries for Responsiveness */
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .contact-content {
+    padding: 15px;
+    font-size: 14px;
+  }
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact-content {
+    padding: 20px;
+    font-size: 16px;
+  }
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact-content {
+    padding: 25px;
+    font-size: 18px;
+  }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .contact-content {
+    padding: 30px;
+    font-size: 20px;
+  }
+}
+
+/* Extra large devices (larger desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .contact-content {
+    padding: 35px;
+    font-size: 22px;
+  }
+}

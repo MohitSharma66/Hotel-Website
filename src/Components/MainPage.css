@@ -1,0 +1,67 @@
+/* src/MainPage.css */
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.carousel-item img {
+  height: 620px;
+  object-fit: cover;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navbar {
+    margin-bottom: 15px;
+  }
+
+  .carousel-item img {
+    height: 300px;
+  }
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar {
+    margin-bottom: 18px;
+  }
+
+  .carousel-item img {
+    height: 400px;
+  }
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar {
+    margin-bottom: 20px;
+  }
+
+  .carousel-item img {
+    height: 500px;
+  }
+}
+
+/* Large devices (large desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar {
+    margin-bottom: 22px;
+  }
+
+  .carousel-item img {
+    height: 550px;
+  }
+}
+
+/* Extra large devices (larger desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .navbar {
+    margin-bottom: 25px;
+  }
+
+  .carousel-item img {
+    height: 620px;
+  }
+}
