@@ -1,15 +1,13 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from 'firebase/firestore';
 
-
 const firebaseConfig = {
-  apiKey: "AIzaSyBDHXUM25YhnDjK33h2ggSp44_kNnnABTo",
-  authDomain: "hotel-website-702a2.firebaseapp.com",
-  projectId: "hotel-website-702a2",
-  storageBucket: "hotel-website-702a2.appspot.com",
-  messagingSenderId: "1072595518618",
-  appId: "1:1072595518618:web:e7e9e59fbaeff7b4f48b23",
-  measurementId: "G-S891H4V8RK"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
