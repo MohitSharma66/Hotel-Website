@@ -35,8 +35,8 @@ The time period covered by this report is from **23rd September to 30th Septembe
    - Updated the layout using Tailwind CSS, resolving styling issues that arose during the migration.
   
 6. **Moving from Frontend to Client & Navbar Integration**:
-   -Moved the project code from the frontend directory to the client directory.
-   -Integrated the navbar with the shopping cart page to ensure smooth navigation across the platform.
+   - Moved the project code from the frontend directory to the client directory.
+   - Integrated the navbar with the shopping cart page to ensure smooth navigation across the platform.
 
 ## Challenges Faced
 - Designing a **unique UI** for both the shopping cart and checkout pages while maintaining functionality and ensuring a seamless user experience.
