@@ -3,7 +3,7 @@
 Our project is a SaaS (Software as a Service) project within IITB, utilizing their network.
 
 ## Time Period
-The time period covered by this report is from **23rd September to 30th September**.
+The time period covered by this report is from **23rd September to 1st October**.
 
 ## Tasks Completed
 1. **Shopping Cart Page**: 
@@ -31,12 +31,16 @@ The time period covered by this report is from **23rd September to 30th Septembe
    - Linked the sidebar between both pages, ensuring consistency across the user experience.
 
 5. **Moving Code to Frontend & UI Changes**:
-   - Moved the project code from the retailer directory to the frontend directory, and adapted the UI accordingly.
+   - Moved the project code from the retailer directory to the frontend directory and adapted the UI accordingly.
    - Updated the layout using Tailwind CSS, resolving styling issues that arose during the migration.
   
 6. **Moving from Frontend to Client & Navbar Integration**:
    - Moved the project code from the frontend directory to the client directory.
    - Integrated the navbar with the shopping cart page to ensure smooth navigation across the platform.
+
+7. **Failed Integration of Shopping Cart and Checkout Page**:
+   - Attempted to integrate the shopping cart and checkout page with the backend. 
+   - This task was unsuccessful due to session issues, as the login part has not been implemented yet.
 
 ## Challenges Faced
 - Designing a **unique UI** for both the shopping cart and checkout pages while maintaining functionality and ensuring a seamless user experience.
@@ -53,4 +57,4 @@ The time period covered by this report is from **23rd September to 30th Septembe
 - **State Management in React**: Improved understanding of how to move and share states between components, as well as better connecting states to maintain a consistent user interface across pages.
 
 ## Conclusion
-The six tasks assigned during this period have been completed. I am handling the frontend development of the project and will continue to work on further components.
+The six out of the seven tasks assigned during this period have been completed and one has yet to be completed. I am handling the frontend development of the project and will continue to work on further components. One task remains to be completed.
