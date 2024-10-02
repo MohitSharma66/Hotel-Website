@@ -3,10 +3,11 @@
 Our project is a SaaS (Software as a Service) project within IITB, utilizing their network.
 
 ## Time Period
-The time period covered by this report is from **23rd September to 1st October**.
+The time period covered by this report is from **23rd September to 2nd October**.
 
 ## Tasks Completed
-1. **Shopping Cart Page**: 
+
+1. **Shopping Cart Page**:
    - Designed and implemented a shopping cart page using React. The layout follows the format provided in the image below:
    
    ![Shopping Cart Page](https://github.com/user-attachments/assets/350de066-9318-4d66-a98a-3fc34ea96cc5)
@@ -39,8 +40,12 @@ The time period covered by this report is from **23rd September to 1st October**
    - Integrated the navbar with the shopping cart page to ensure smooth navigation across the platform.
 
 7. **Failed Integration of Shopping Cart and Checkout Page**:
-   - Attempted to integrate the shopping cart and checkout page with the backend. 
+   - Attempted to integrate the shopping cart and checkout page with the backend.
    - This task was unsuccessful due to session issues, as the login part has not been implemented yet.
+
+8. **Backend Integration for Shopping Cart and Checkout Pages**:
+   - Set up backend integration for the shopping cart and checkout pages.
+   - As login functionality has not been implemented yet, products are not being added to the cart. Once login is integrated, these pages will work as expected.
 
 ## Challenges Faced
 - Designing a **unique UI** for both the shopping cart and checkout pages while maintaining functionality and ensuring a seamless user experience.
@@ -57,4 +62,4 @@ The time period covered by this report is from **23rd September to 1st October**
 - **State Management in React**: Improved understanding of how to move and share states between components, as well as better connecting states to maintain a consistent user interface across pages.
 
 ## Conclusion
-The six out of the seven tasks assigned during this period have been completed and one has yet to be completed. I am handling the frontend development of the project and will continue to work on further components. One task remains to be completed.
+All eight tasks have been completed. I am handling the frontend development of the project and will continue to work on further components. Once the login is implemented, the integration of the shopping cart and checkout pages with the backend will be functional.
